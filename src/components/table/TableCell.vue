@@ -40,4 +40,10 @@ defineProps({
   color: white;
   font-weight: bolder;
 }
+
+@media (max-width: 550px) {
+  .table-cell {
+    justify-content: flex-start;
+  }
+}
 </style>
