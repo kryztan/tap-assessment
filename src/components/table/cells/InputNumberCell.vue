@@ -68,6 +68,7 @@ function validateKey(e) {
 .number-input {
   height: 100%;
   width: 100%;
+  background-color: #e2ecff;
   text-align: center;
 }
 
@@ -81,5 +82,11 @@ function validateKey(e) {
 /* Firefox */
 .number-input[type=number] {
   -moz-appearance: textfield;
+}
+
+@media (max-width: 550px) {
+  .number-input {
+    text-align: left;
+  }
 }
 </style>

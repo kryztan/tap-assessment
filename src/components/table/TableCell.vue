@@ -32,11 +32,11 @@ defineProps({
 }
 
 .unfilled {
-  background: #dddddd;
+  background-color: #dddddd;
 }
 
 .label {
-  background: #70a0ff;
+  background-color: #70a0ff;
   color: white;
   font-weight: bolder;
 }
