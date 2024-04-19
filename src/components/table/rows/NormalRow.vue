@@ -33,7 +33,7 @@ const formatNumberToString = number => number.toLocaleString('en-US');
 
 <template>
   <TableRow>
-    <TableCell>{{ name }}</TableCell>
+    <TableCell bold>{{ name }}</TableCell>
     <InputNumberCell v-model="currentValue" />
     <TableCell>{{ targetAllocPercent + '%' }}</TableCell>
     <TableCell>{{ formatNumberToString(targetValue) }}</TableCell>

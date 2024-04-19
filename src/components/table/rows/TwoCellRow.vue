@@ -17,7 +17,7 @@ function update(newValue) {
 
 <template>
   <TableRow>
-    <TableCell>{{ name }}</TableCell>
+    <TableCell bold>{{ name }}</TableCell>
     <InputNumberCell :model-value="value" @update:modelValue="update" />
   </TableRow>
 </template>

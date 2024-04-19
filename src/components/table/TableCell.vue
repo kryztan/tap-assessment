@@ -1,5 +1,9 @@
 <script setup>
 defineProps({
+  bold: {
+    type: Boolean,
+    default: false
+  },
   unfilled: {
     type: Boolean,
     default: false
@@ -13,6 +17,7 @@ defineProps({
 
 <template>
   <div :class="['table-cell', {
+    'bold': bold,
     'unfilled': unfilled,
     'label': label
   }]">
@@ -31,8 +36,12 @@ defineProps({
   overflow: auto;
 }
 
+.bold {
+  font-weight: bolder;
+}
+
 .unfilled {
-  background-color: #dddddd;
+  background-color: #cdcdcd;
 }
 
 .label {

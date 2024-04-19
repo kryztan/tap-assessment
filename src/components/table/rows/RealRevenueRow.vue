@@ -9,7 +9,7 @@ defineProps({
 
 <template>
   <TableRow>
-    <TableCell>Real Revenue</TableCell>
+    <TableCell bold>Real Revenue</TableCell>
     <TableCell style="background-color: #f5f5f5">{{ value.toLocaleString('en-US') }}</TableCell>
     <TableCell>100%</TableCell>
     <TableCell>{{ value.toLocaleString('en-US') }}</TableCell>

@@ -68,8 +68,17 @@ function validateKey(e) {
 .number-input {
   height: 100%;
   width: 100%;
-  background-color: #e2ecff;
   text-align: center;
+  cursor: text;
+  border: 2px solid transparent;
+  background-color: white;
+  border-radius: 5px;
+  transition: all 0.3s;
+}
+
+.number-input:hover {
+  border: 2px solid #4468ff;
+  background-color: #f0f0f0;
 }
 
 /* Chrome, Safari, Edge, Opera */
